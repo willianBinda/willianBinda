@@ -15,6 +15,7 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 3rem;
+  margin-bottom: 1rem;
 }
 
 .projeto {
@@ -34,23 +35,6 @@
   flex: 1;
   margin-right: 2rem;
   text-align: left;
-}
-
-.projeto:hover {
-  background-color: var(--bordo-escuro);
-}
-
-.projeto h3 {
-  font-size: 1.8rem;
-  color: var(--ouro);
-  margin-bottom: 1rem;
-}
-
-.projeto p {
-  font-size: 1rem;
-  color: var(--branco-perola);
-  margin-bottom: 1.5rem;
-  padding: 2rem;
 }
 
 .projeto-conteudo h3 {
@@ -173,4 +157,22 @@
     width: 35px;
     height: 35px;
   }
+}
+
+.empresas-vinculadas {
+  display: flex;
+  flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+  gap: 1rem; /* Espaçamento entre os itens */
+  margin-top: 1rem;
+}
+
+.empresas-vinculadas h1 {
+  align-self: center;
+}
+
+.empresas-vinculadas img {
+  width: 100px; /* Largura fixa para as imagens */
+  height: auto; /* Mantém a proporção das imagens */
+  object-fit: contain; /* Garante que a imagem seja exibida corretamente */
+  transition: transform 0.3s ease; /* Animação ao passar o mouse */
 }
