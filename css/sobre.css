@@ -1,0 +1,44 @@
+/* Seção Sobre */
+#sobre {
+  background-color: var(--branco-perola);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.sobre-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.sobre-text {
+  flex: 1;
+  max-width: 600px;
+  padding: 2rem;
+}
+
+.sobre-text h2 {
+  font-size: 2.5rem;
+  color: var(--azul-petroleo);
+  margin-bottom: 1rem;
+}
+
+.sobre-text p {
+  font-size: 1.2rem;
+  color: var(--cinza-chumbo);
+  line-height: 1.6;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .sobre-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sobre-text {
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,147 @@
+#projetos {
+  background-color: var(--branco-perola);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+#projetos h2 {
+  font-size: 2.5rem;
+  color: var(--azul-petroleo);
+  margin-bottom: 2rem;
+}
+
+.projetos-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.projeto {
+  background-color: var(--branco-perola);
+  border-radius: 10px;
+  width: 100%; /* Ocupa toda a largura da tela */
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.3s ease;
+  padding: 2rem;
+}
+
+.projeto:hover {
+  background-color: var(--bordo-escuro);
+}
+
+.projeto h3 {
+  font-size: 1.8rem;
+  color: var(--ouro);
+  margin-bottom: 1rem;
+}
+
+.projeto p {
+  font-size: 1rem;
+  color: var(--branco-perola);
+  margin-bottom: 1.5rem;
+}
+
+.projeto-icone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 250px;
+  height: 250px;
+  position: relative;
+}
+
+.icone-central {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 120px; /* Tamanho maior */
+  height: 120px;
+  border-radius: 50%;
+  background-color: var(--ouro);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.icone-central img {
+  width: 60px;
+  height: 60px;
+}
+
+.icones-ferramentas {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120%;
+  height: 120%;
+}
+
+.icones-ferramentas img {
+  position: absolute;
+  width: 50px; /* Aumentado */
+  height: 50px;
+  transition: transform 0.3s ease;
+}
+
+.icones-ferramentas img:nth-child(1) {
+  transform: rotate(0deg) translateX(120px) rotate(0deg);
+}
+
+.icones-ferramentas img:nth-child(2) {
+  transform: rotate(45deg) translateX(120px) rotate(-45deg);
+}
+
+.icones-ferramentas img:nth-child(3) {
+  transform: rotate(90deg) translateX(120px) rotate(-90deg);
+}
+
+.icones-ferramentas img:nth-child(4) {
+  transform: rotate(135deg) translateX(120px) rotate(-135deg);
+}
+
+.icones-ferramentas img:nth-child(5) {
+  transform: rotate(180deg) translateX(120px) rotate(-180deg);
+}
+
+.icones-ferramentas img:nth-child(6) {
+  transform: rotate(225deg) translateX(120px) rotate(-225deg);
+}
+
+.icones-ferramentas img:nth-child(7) {
+  transform: rotate(270deg) translateX(120px) rotate(-270deg);
+}
+
+.icones-ferramentas img:nth-child(8) {
+  transform: rotate(315deg) translateX(120px) rotate(-315deg);
+}
+
+@media (max-width: 768px) {
+  .projeto {
+    width: 100%;
+  }
+
+  .icone-central {
+    width: 100px;
+    height: 100px;
+  }
+
+  .icones-ferramentas {
+    width: 100px;
+    height: 100px;
+  }
+
+  .icones-ferramentas img {
+    width: 35px;
+    height: 35px;
+  }
+}

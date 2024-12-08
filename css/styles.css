@@ -1,0 +1,41 @@
+/* Reseta margem e padding da página */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Cores Exclusivas */
+:root {
+  --azul-petroleo: #264653;
+  --ouro: #e9c46a;
+  --bordo-escuro: #8a2b2b;
+  --cinza-chumbo: #2a2a2a;
+  --branco-perola: #faf3e0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--cinza-chumbo);
+  background-color: var(--branco-perola);
+}
+
+/* section:nth-child(even) {
+  background-color: var(--cinza-chumbo);
+  color: var(--branco-perola);
+} */
+
+/* .projetos-grid .projeto {
+  background-color: var(--azul-petroleo);
+  color: var(--branco-perola);
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+} */
+
+footer {
+  background-color: var(--bordo-escuro);
+  color: var(--branco-perola);
+  text-align: center;
+  padding: 1rem 0;
+}
