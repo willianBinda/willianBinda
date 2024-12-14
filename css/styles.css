@@ -20,19 +20,6 @@ body {
   background-color: var(--branco-perola);
 }
 
-/* section:nth-child(even) {
-  background-color: var(--cinza-chumbo);
-  color: var(--branco-perola);
-} */
-
-/* .projetos-grid .projeto {
-  background-color: var(--azul-petroleo);
-  color: var(--branco-perola);
-  padding: 1rem;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-} */
-
 footer {
   background-color: var(--bordo-escuro);
   color: var(--branco-perola);
