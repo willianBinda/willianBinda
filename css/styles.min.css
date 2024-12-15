@@ -455,38 +455,6 @@ nav {
   outline: 2px solid var(--ouro);
 }
 
-/* Responsividade para telas menores que 768px (dispositivos móveis) */
-@media (max-width: 768px) {
-  /* Ajustando a seção de Habilidades */
-  #habilidades {
-    padding: 20px;
-    text-align: center;
-  }
-
-  .habilidades-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 colunas em telas pequenas */
-    gap: 20px;
-  }
-
-  .habilidade {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  .habilidade img {
-    width: 40px; /* Ajuste o tamanho do ícone */
-    height: 40px;
-  }
-
-  /* Ajustando o layout da lista de habilidades */
-  .habilidades-container .habilidade {
-    margin-bottom: 10px;
-  }
-}
-
 /* Estilo para a seção de contato */
 #contato {
   padding: 4rem 0;
