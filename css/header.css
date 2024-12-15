@@ -12,8 +12,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px; /* Limita a largura máxima */
-  margin: 0 auto; /* Centraliza o conteúdo */
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .logo a {

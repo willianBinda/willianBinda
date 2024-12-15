@@ -1,4 +1,3 @@
-/* Reseta margem e padding da página */
 * {
   margin: 0;
   padding: 0;
@@ -18,11 +17,4 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: var(--cinza-chumbo);
   background-color: var(--branco-perola);
-}
-
-footer {
-  background-color: var(--bordo-escuro);
-  color: var(--branco-perola);
-  text-align: center;
-  padding: 1rem 0;
 }
